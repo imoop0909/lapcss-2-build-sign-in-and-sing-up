@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* LEFT */
+  .left {
+    flex: 1;
+    background: radial-gradient(circle at bottom, #6e40c9, #000);
+    color: white;
+    padding: 80px;
+  }
+  
+  .left h1 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  
+  .left p {
+    opacity: 0.8;
+  }
+  
+  /* RIGHT */
+  .right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-box {
+    width: 360px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* OAUTH BUTTONS */
+  .oauth {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #d0d7de;
+    background: white;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  
+  .oauth img {
+    width: 18px;
+  }
+  
+  .oauth:hover {
+    background: #f6f8fa;
+  }
+  
+  .apple img {
+    filter: invert(1);
+  }
+  
+  /* DIVIDER */
+  .divider {
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+  }
+  
+  .divider::before,
+  .divider::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    height: 1px;
+    background: #d0d7de;
+  }
+  
+  .divider::before {
+    left: 0;
+  }
+  
+  .divider::after {
+    right: 0;
+  }
+  
+  .divider span {
+    background: white;
+    padding: 0 10px;
+    font-size: 12px;
+    color: #57606a;
+  }
+  
+  /* FORM */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 6px;
+  }
+  
+  input, select {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #d0d7de;
+  }
+  
+  input:focus, select:focus {
+    outline: none;
+    border-color: #0969da;
+    box-shadow: 0 0 0 2px rgba(9,105,218,.2);
+  }
+  
+  .checkbox {
+    display: flex;
+    gap: 8px;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  /* CREATE BUTTON */
+  .create {
+    margin-top: 25px;
+    padding: 12px;
+    background: #1f883d;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .create:hover {
+    background: #1a7f37;
+  }
+  
+  /* TERMS */
+  .terms {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+    color: #57606a;
+  }
+  
+  .terms a {
+    color: #0969da;
+    text-decoration: none;
+  }
+  

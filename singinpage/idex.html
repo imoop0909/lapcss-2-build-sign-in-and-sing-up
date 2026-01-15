@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sign up</title>
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome (Google / Apple Icons) -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- LEFT -->
+  <div class="left">
+    <h1>Create your free account</h1>
+    <p>Explore GitHub’s core features for individuals and organizations.</p>
+  </div>
+
+  <!-- RIGHT -->
+  <div class="right">
+    <div class="form-box">
+
+      <h2>Sign up for GitHub</h2>
+
+      <!-- OAuth Buttons -->
+      <button class="oauth google">
+        <i class="fa-brands fa-google"></i>
+        Continue with Google
+      </button>
+
+      <button class="oauth apple">
+        <i class="fa-brands fa-apple"></i>
+        Continue with Apple
+      </button>
+
+      <div class="divider">
+        <span>or</span>
+      </div>
+
+      <form>
+        <label>Email*</label>
+        <input type="email" placeholder="Email">
+
+        <label>Password*</label>
+        <input type="password" placeholder="Password">
+        <small>Password should be at least 8 characters.</small>
+
+        <label>Username*</label>
+        <input type="text" placeholder="Username">
+
+        <label>Your Country/Region*</label>
+        <select>
+          <option>Thailand</option>
+          <option>Japan</option>
+          <option>USA</option>
+        </select>
+
+        <div class="checkbox">
+          <input type="checkbox">
+          <span>Receive occasional product updates</span>
+        </div>
+
+        <button class="create">Create account</button>
+
+        <p class="terms">
+          By creating an account, you agree to the
+          <a href="#">Terms of Service</a> and
+          <a href="#">Privacy Statement</a>.
+        </p>
+      </form>
+
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
